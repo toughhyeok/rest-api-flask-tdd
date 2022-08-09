@@ -15,7 +15,7 @@ def create_app(name, config):
     api = Api(
         app,
         version="0.1",
-        title="M.L API",
+        title="My Blog API",
         doc="/api/docs/",
     )
 
