@@ -1,5 +1,5 @@
 """
-Create and add namespace to Flask app.
+Create Flask app and return app added namespace.
 """
 from flask import Flask
 from flask_restx import Api
