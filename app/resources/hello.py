@@ -1,5 +1,5 @@
 """
-Hello API
+Hello API Controller
 """
 from flask_restx import (
     Resource,

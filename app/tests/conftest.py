@@ -5,13 +5,13 @@ import pytest
 
 from factory import create_app
 from database import db
-from config import Config
+from config import TestingConfig
 
 
 @pytest.fixture(scope='session')
 def app():
     """Create and return flask app for test."""
-    app = create_app('test', Config)
+    app = create_app('test', TestingConfig)
     db.init_app(app)
 
     ctx = app.app_context()
